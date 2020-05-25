@@ -1,1 +1,1 @@
-# dice game - dice branch - i worked
+# dice game for biginners
