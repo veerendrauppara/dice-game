@@ -1,1 +1,1 @@
-# dice game for biginners
+# dice game for ex
