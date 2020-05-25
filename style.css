@@ -1,0 +1,106 @@
+body {
+    background: url(sun.jpg);
+}
+
+.main {
+    position: relative;
+    overflow: auto;
+    margin: 5%;
+    border: 1px solid #ccc;
+}
+
+.player-0-panel {
+    float: left;
+    width: 50%;
+}
+
+.player-1-panel {
+    float: right;
+    width: 50%;
+}
+
+.player-name-0,
+.player-name-1 {
+    text-align: center;
+}
+
+.player-score-0::before {
+    content: "Total Score:";
+    position: absolute;
+    top: 20%;
+    left: 16%;
+}
+
+.player-score-1::before {
+    content: "Total Score:";
+    position: absolute;
+    top: 20%;
+    right: 27%;
+}
+
+.player-0-rollcount::before {
+    content: "Roll Count:";
+    position: absolute;
+    top: 81%;
+    left: 16%;
+}
+
+.player-1-rollcount::before {
+    content: "Roll Count:";
+    position: absolute;
+    top: 81%;
+    right: 27%;
+}
+
+.player-score-0,
+.player-score-1 {
+    text-align: center;
+    padding: 7%;
+}
+
+.player-0-rollcount,
+.player-1-rollcount {
+    text-align: center;
+    margin: 20% 0 6% 0;
+}
+
+.newGameButton {
+    position: absolute;
+    top: 2%;
+    left: 46%;
+    background: red;
+    color: #fff;
+}
+
+.rollDiceButton {
+    position: absolute;
+    bottom: 30%;
+    left: 46%;
+    background: pink;
+}
+
+.holdScoreButton {
+    position: absolute;
+    bottom: 10%;
+    left: 46%;
+    background: #13b6d0;
+}
+
+.dice-imgs {
+    position: absolute;
+    top: 16%;
+    left: 48%;
+    width: 38px;
+    height: 38px;
+}
+
+.player-0-panel,
+.player-1-panel {
+    background: #ccc;
+}
+
+.active {
+    background: #37ce51 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
